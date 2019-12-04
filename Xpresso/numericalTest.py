@@ -113,6 +113,6 @@ class Explorer():
 
 
 if __name__ == "__main__":
-    data_path = "/home/abzooba/PycharmProjects/AnushreeTest/Xpresso/datasets/haberman.csv"
+    data_path = "/home/abzooba/PycharmProjects/xpresso.ai/datasets/haberman.csv"
     Explorer(data_path)
 

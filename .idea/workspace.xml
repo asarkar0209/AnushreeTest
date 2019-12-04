@@ -2,21 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a151351-5d96-482e-9266-1f80e5661e1b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Xpresso/corel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Xpresso/create_user1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Xpresso/data_diff.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Xpresso/data_file.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Xpresso/datasets/dataset1.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Xpresso/datasets/dataset2.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Xpresso/practice_json.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Xpresso/practice_json2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/AnushreeTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/AnushreeTest.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Xpresso/categoricalTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/Xpresso/categoricalTest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Xpresso/haberman.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Xpresso/datasets/haberman.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Xpresso/data_diff.py" beforeDir="false" afterPath="$PROJECT_DIR$/Xpresso/data_diff.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Xpresso/datasets/dataset2.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Xpresso/datasets/dataset2.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Xpresso/numericalTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/Xpresso/numericalTest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Xpresso/test_case1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Xpresso/datasets/test_case1.csv" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,6 +28,7 @@
   <component name="ProjectId" id="1OV4V4kHjGR3Kowr753M56fyawh" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JSON" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -59,7 +51,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.CategoricalTest">
+  <component name="RunManager" selected="Python._backend_tk">
     <configuration name="CategoricalTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="AnushreeTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -102,7 +94,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="corel" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="_backend_tk" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="AnushreeTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -110,32 +102,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Xpresso" />
+      <option name="WORKING_DIRECTORY" value="/usr/local/lib/python3.7/dist-packages/matplotlib/backends" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Xpresso/corel.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="practice_json" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="AnushreeTest" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Xpresso" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Xpresso/practice_json.py" />
+      <option name="SCRIPT_NAME" value="/usr/local/lib/python3.7/dist-packages/matplotlib/backends/_backend_tk.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -165,13 +136,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="visualize_univariate" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="AnushreeTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Xpresso" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Xpresso/visualize_univariate.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python._backend_tk" />
+        <item itemvalue="Python.visualize_univariate" />
         <item itemvalue="Python.CategoricalTest" />
         <item itemvalue="Python.NumericalTest" />
-        <item itemvalue="Python.practice_json" />
         <item itemvalue="Python.python_data_mismatch2_4" />
-        <item itemvalue="Python.corel" />
       </list>
     </recent_temporary>
   </component>

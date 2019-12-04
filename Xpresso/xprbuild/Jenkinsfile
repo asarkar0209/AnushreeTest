@@ -1,0 +1,42 @@
+/**
+ * PLEASE DO NOT CHANGE ANYTHING IN THIS FILE, UNLESS YOU KNOW WHAT YOU ARE DOING.
+ *
+ *
+ * This is the Jenkinsfile which describes the different stages in the build pipeline.
+ **/
+pipeline {
+  agent {
+    label 'python'
+  }
+  options { 
+      skipDefaultCheckout() 
+  }
+  stages{
+    stage('Checkout'){
+      steps{
+        checkout scm
+        sh 'make clobber SUBDIR=$component_name'
+      }
+    }
+    stage('Prepare'){
+      steps{
+        sh 'make prepare SUBDIR=$component_name'
+      }
+    }
+    stage('Build'){
+      steps{
+        sh 'make build DOCKER_IMAGE_NAME=$docker_image_name TAG=$BUILD_ID SUBDIR=$component_name'
+      }
+    }
+    stage('Test'){
+      steps{
+        sh 'make unittest DOCKER_IMAGE_NAME=$docker_image_name TAG=$BUILD_ID SUBDIR=$component_name'
+      }
+    }
+    stage('Docker Push'){
+      steps{
+        sh 'make dockerpush DOCKER_IMAGE_NAME=$docker_image_name TAG=$BUILD_ID SUBDIR=$component_name'
+      }
+    }
+  }
+}
